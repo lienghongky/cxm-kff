@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import wheelUrl from './assets/fonttools-4.63.0-py3-none-any.whl';
 import donorFontUrl from './assets/NotoSansKhmer.ttf';
-import generatedFontUrl from '../../output/fonts/KhmerCustomFont-Regular/KhmerCustomFont-Regular.ttf';
+import generatedFontUrl from './assets/KhmerCustomFont-Regular.ttf';
 import pythonCompilerCode from './python/font_compiler.py?raw';
 import KHMER_GLYPHS from './assets/glyphs.json';
 import { saveFont, getAllFonts, deleteFont } from './utils/storage.js';
