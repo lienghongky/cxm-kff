@@ -1,0 +1,2814 @@
+[
+  {
+    "hex": "A",
+    "char": "A"
+  },
+  {
+    "hex": "a",
+    "char": "a"
+  },
+  {
+    "hex": "B",
+    "char": "B"
+  },
+  {
+    "hex": "b",
+    "char": "b"
+  },
+  {
+    "hex": "C",
+    "char": "C"
+  },
+  {
+    "hex": "c",
+    "char": "c"
+  },
+  {
+    "hex": "D",
+    "char": "D"
+  },
+  {
+    "hex": "d",
+    "char": "d"
+  },
+  {
+    "hex": "E",
+    "char": "E"
+  },
+  {
+    "hex": "e",
+    "char": "e"
+  },
+  {
+    "hex": "F",
+    "char": "F"
+  },
+  {
+    "hex": "f",
+    "char": "f"
+  },
+  {
+    "hex": "00A0",
+    "char": " "
+  },
+  {
+    "hex": "00AD",
+    "char": "­"
+  },
+  {
+    "hex": "AE",
+    "char": "Æ"
+  },
+  {
+    "hex": "ae",
+    "char": "æ"
+  },
+  {
+    "hex": "0122",
+    "char": "Ģ"
+  },
+  {
+    "hex": "0123",
+    "char": "ģ"
+  },
+  {
+    "hex": "0136",
+    "char": "Ķ"
+  },
+  {
+    "hex": "0137",
+    "char": "ķ"
+  },
+  {
+    "hex": "013B",
+    "char": "Ļ"
+  },
+  {
+    "hex": "013C",
+    "char": "ļ"
+  },
+  {
+    "hex": "0145",
+    "char": "Ņ"
+  },
+  {
+    "hex": "0146",
+    "char": "ņ"
+  },
+  {
+    "hex": "0156",
+    "char": "Ŗ"
+  },
+  {
+    "hex": "0157",
+    "char": "ŗ"
+  },
+  {
+    "hex": "0218",
+    "char": "Ș"
+  },
+  {
+    "hex": "0219",
+    "char": "ș"
+  },
+  {
+    "hex": "021A",
+    "char": "Ț"
+  },
+  {
+    "hex": "021B",
+    "char": "ț"
+  },
+  {
+    "hex": "0237",
+    "char": "ȷ"
+  },
+  {
+    "hex": "0302",
+    "char": "̂"
+  },
+  {
+    "hex": "0304",
+    "char": "̄"
+  },
+  {
+    "hex": "0306",
+    "char": "̆"
+  },
+  {
+    "hex": "0307",
+    "char": "̇"
+  },
+  {
+    "hex": "0308",
+    "char": "̈"
+  },
+  {
+    "hex": "030A",
+    "char": "̊"
+  },
+  {
+    "hex": "030B",
+    "char": "̋"
+  },
+  {
+    "hex": "030C",
+    "char": "̌"
+  },
+  {
+    "hex": "0312",
+    "char": "̒"
+  },
+  {
+    "hex": "0326",
+    "char": "̦"
+  },
+  {
+    "hex": "0327",
+    "char": "̧"
+  },
+  {
+    "hex": "0328",
+    "char": "̨"
+  },
+  {
+    "hex": "1780",
+    "char": "ក"
+  },
+  {
+    "hex": "178017B6",
+    "char": "កា"
+  },
+  {
+    "hex": "178017C5",
+    "char": "កៅ"
+  },
+  {
+    "hex": "1780_sub",
+    "char": "ក"
+  },
+  {
+    "hex": "1781",
+    "char": "ខ"
+  },
+  {
+    "hex": "178117B6",
+    "char": "ខា"
+  },
+  {
+    "hex": "178117C5",
+    "char": "ខៅ"
+  },
+  {
+    "hex": "1781_sub",
+    "char": "ខ"
+  },
+  {
+    "hex": "1782",
+    "char": "គ"
+  },
+  {
+    "hex": "178217B6",
+    "char": "គា"
+  },
+  {
+    "hex": "178217C5",
+    "char": "គៅ"
+  },
+  {
+    "hex": "1782_sub",
+    "char": "គ"
+  },
+  {
+    "hex": "1783",
+    "char": "ឃ"
+  },
+  {
+    "hex": "178317B6",
+    "char": "ឃា"
+  },
+  {
+    "hex": "178317C5",
+    "char": "ឃៅ"
+  },
+  {
+    "hex": "1783_sub",
+    "char": "ឃ"
+  },
+  {
+    "hex": "1784",
+    "char": "ង"
+  },
+  {
+    "hex": "178417B6",
+    "char": "ងា"
+  },
+  {
+    "hex": "178417C5",
+    "char": "ងៅ"
+  },
+  {
+    "hex": "1784_sub",
+    "char": "ង"
+  },
+  {
+    "hex": "1785",
+    "char": "ច"
+  },
+  {
+    "hex": "178517B6",
+    "char": "ចា"
+  },
+  {
+    "hex": "178517C5",
+    "char": "ចៅ"
+  },
+  {
+    "hex": "1785_sub",
+    "char": "ច"
+  },
+  {
+    "hex": "1786",
+    "char": "ឆ"
+  },
+  {
+    "hex": "178617B6",
+    "char": "ឆា"
+  },
+  {
+    "hex": "178617C5",
+    "char": "ឆៅ"
+  },
+  {
+    "hex": "1786_sub",
+    "char": "ឆ"
+  },
+  {
+    "hex": "1787",
+    "char": "ជ"
+  },
+  {
+    "hex": "178717B6",
+    "char": "ជា"
+  },
+  {
+    "hex": "178717C5",
+    "char": "ជៅ"
+  },
+  {
+    "hex": "1787_sub",
+    "char": "ជ"
+  },
+  {
+    "hex": "1788",
+    "char": "ឈ"
+  },
+  {
+    "hex": "178817B6",
+    "char": "ឈា"
+  },
+  {
+    "hex": "178817C5",
+    "char": "ឈៅ"
+  },
+  {
+    "hex": "1788_sub",
+    "char": "ឈ"
+  },
+  {
+    "hex": "1789",
+    "char": "ញ"
+  },
+  {
+    "hex": "1789_a",
+    "char": "ញ"
+  },
+  {
+    "hex": "178917B6",
+    "char": "ញា"
+  },
+  {
+    "hex": "178917C5",
+    "char": "ញៅ"
+  },
+  {
+    "hex": "1789_sub",
+    "char": "ញ"
+  },
+  {
+    "hex": "178917B6_a",
+    "char": "ញា"
+  },
+  {
+    "hex": "178917C5_a",
+    "char": "ញៅ"
+  },
+  {
+    "hex": "178A",
+    "char": "ដ"
+  },
+  {
+    "hex": "178A17B6",
+    "char": "ដា"
+  },
+  {
+    "hex": "178A17C5",
+    "char": "ដៅ"
+  },
+  {
+    "hex": "178A_sub",
+    "char": "ដ"
+  },
+  {
+    "hex": "178B",
+    "char": "ឋ"
+  },
+  {
+    "hex": "178B17B6",
+    "char": "ឋា"
+  },
+  {
+    "hex": "178B17C5",
+    "char": "ឋៅ"
+  },
+  {
+    "hex": "178B_sub",
+    "char": "ឋ"
+  },
+  {
+    "hex": "178C",
+    "char": "ឌ"
+  },
+  {
+    "hex": "178C17B6",
+    "char": "ឌា"
+  },
+  {
+    "hex": "178C17C5",
+    "char": "ឌៅ"
+  },
+  {
+    "hex": "178C_sub",
+    "char": "ឌ"
+  },
+  {
+    "hex": "178D",
+    "char": "ឍ"
+  },
+  {
+    "hex": "178D17B6",
+    "char": "ឍា"
+  },
+  {
+    "hex": "178D17C5",
+    "char": "ឍៅ"
+  },
+  {
+    "hex": "178D_sub",
+    "char": "ឍ"
+  },
+  {
+    "hex": "178E",
+    "char": "ណ"
+  },
+  {
+    "hex": "178E17B6",
+    "char": "ណា"
+  },
+  {
+    "hex": "178E17C5",
+    "char": "ណៅ"
+  },
+  {
+    "hex": "178E_sub",
+    "char": "ណ"
+  },
+  {
+    "hex": "178F",
+    "char": "ត"
+  },
+  {
+    "hex": "178F17B6",
+    "char": "តា"
+  },
+  {
+    "hex": "178F17C5",
+    "char": "តៅ"
+  },
+  {
+    "hex": "178F_sub",
+    "char": "ត"
+  },
+  {
+    "hex": "1790",
+    "char": "ថ"
+  },
+  {
+    "hex": "179017B6",
+    "char": "ថា"
+  },
+  {
+    "hex": "179017C5",
+    "char": "ថៅ"
+  },
+  {
+    "hex": "1790_sub",
+    "char": "ថ"
+  },
+  {
+    "hex": "1791",
+    "char": "ទ"
+  },
+  {
+    "hex": "179117B6",
+    "char": "ទា"
+  },
+  {
+    "hex": "179117C5",
+    "char": "ទៅ"
+  },
+  {
+    "hex": "1791_sub",
+    "char": "ទ"
+  },
+  {
+    "hex": "1792",
+    "char": "ធ"
+  },
+  {
+    "hex": "179217B6",
+    "char": "ធា"
+  },
+  {
+    "hex": "179217C5",
+    "char": "ធៅ"
+  },
+  {
+    "hex": "1792_sub",
+    "char": "ធ"
+  },
+  {
+    "hex": "1793",
+    "char": "ន"
+  },
+  {
+    "hex": "179317B6",
+    "char": "នា"
+  },
+  {
+    "hex": "179317C5",
+    "char": "នៅ"
+  },
+  {
+    "hex": "1793_sub",
+    "char": "ន"
+  },
+  {
+    "hex": "1794",
+    "char": "ប"
+  },
+  {
+    "hex": "1794_a",
+    "char": "ប"
+  },
+  {
+    "hex": "1794_a2",
+    "char": "ប"
+  },
+  {
+    "hex": "179417B6",
+    "char": "បា"
+  },
+  {
+    "hex": "179417C5",
+    "char": "បៅ"
+  },
+  {
+    "hex": "1794_sub",
+    "char": "ប"
+  },
+  {
+    "hex": "179417B6_high",
+    "char": "បា"
+  },
+  {
+    "hex": "179417C5_high",
+    "char": "បៅ"
+  },
+  {
+    "hex": "1795",
+    "char": "ផ"
+  },
+  {
+    "hex": "179517B6",
+    "char": "ផា"
+  },
+  {
+    "hex": "179517C5",
+    "char": "ផៅ"
+  },
+  {
+    "hex": "1795_sub",
+    "char": "ផ"
+  },
+  {
+    "hex": "1796",
+    "char": "ព"
+  },
+  {
+    "hex": "179617B6",
+    "char": "ពា"
+  },
+  {
+    "hex": "179617C5",
+    "char": "ពៅ"
+  },
+  {
+    "hex": "1796_sub",
+    "char": "ព"
+  },
+  {
+    "hex": "1797",
+    "char": "ភ"
+  },
+  {
+    "hex": "179717B6",
+    "char": "ភា"
+  },
+  {
+    "hex": "179717C5",
+    "char": "ភៅ"
+  },
+  {
+    "hex": "1797_sub",
+    "char": "ភ"
+  },
+  {
+    "hex": "1798",
+    "char": "ម"
+  },
+  {
+    "hex": "179817B6",
+    "char": "មា"
+  },
+  {
+    "hex": "179817C5",
+    "char": "មៅ"
+  },
+  {
+    "hex": "1798_sub",
+    "char": "ម"
+  },
+  {
+    "hex": "1799",
+    "char": "យ"
+  },
+  {
+    "hex": "179917B6",
+    "char": "យា"
+  },
+  {
+    "hex": "179917C5",
+    "char": "យៅ"
+  },
+  {
+    "hex": "1799_sub",
+    "char": "យ"
+  },
+  {
+    "hex": "179A",
+    "char": "រ"
+  },
+  {
+    "hex": "179A17B6",
+    "char": "រា"
+  },
+  {
+    "hex": "179A17C5",
+    "char": "រៅ"
+  },
+  {
+    "hex": "179A_sub",
+    "char": "រ"
+  },
+  {
+    "hex": "179B",
+    "char": "ល"
+  },
+  {
+    "hex": "179B17B6",
+    "char": "លា"
+  },
+  {
+    "hex": "179B17C5",
+    "char": "លៅ"
+  },
+  {
+    "hex": "179B_sub",
+    "char": "ល"
+  },
+  {
+    "hex": "179C",
+    "char": "វ"
+  },
+  {
+    "hex": "179C17B6",
+    "char": "វា"
+  },
+  {
+    "hex": "179C17C5",
+    "char": "វៅ"
+  },
+  {
+    "hex": "179C_sub",
+    "char": "វ"
+  },
+  {
+    "hex": "179D",
+    "char": "ឝ"
+  },
+  {
+    "hex": "179D17B6",
+    "char": "ឝា"
+  },
+  {
+    "hex": "179D17C5",
+    "char": "ឝៅ"
+  },
+  {
+    "hex": "179D_sub",
+    "char": "ឝ"
+  },
+  {
+    "hex": "179E",
+    "char": "ឞ"
+  },
+  {
+    "hex": "179E17B6",
+    "char": "ឞា"
+  },
+  {
+    "hex": "179E17C5",
+    "char": "ឞៅ"
+  },
+  {
+    "hex": "179E_sub",
+    "char": "ឞ"
+  },
+  {
+    "hex": "179F",
+    "char": "ស"
+  },
+  {
+    "hex": "179F17B6",
+    "char": "សា"
+  },
+  {
+    "hex": "179F17C5",
+    "char": "សៅ"
+  },
+  {
+    "hex": "179F_sub",
+    "char": "ស"
+  },
+  {
+    "hex": "17A0",
+    "char": "ហ"
+  },
+  {
+    "hex": "17A017B6",
+    "char": "ហា"
+  },
+  {
+    "hex": "17A017C5",
+    "char": "ហៅ"
+  },
+  {
+    "hex": "17A0_sub",
+    "char": "ហ"
+  },
+  {
+    "hex": "17A1",
+    "char": "ឡ"
+  },
+  {
+    "hex": "17A117B6",
+    "char": "ឡា"
+  },
+  {
+    "hex": "17A117C5",
+    "char": "ឡៅ"
+  },
+  {
+    "hex": "17A2",
+    "char": "អ"
+  },
+  {
+    "hex": "17A217B6",
+    "char": "អា"
+  },
+  {
+    "hex": "17A217C5",
+    "char": "អៅ"
+  },
+  {
+    "hex": "17A3",
+    "char": "ឣ"
+  },
+  {
+    "hex": "17A4",
+    "char": "ឤ"
+  },
+  {
+    "hex": "17A5",
+    "char": "ឥ"
+  },
+  {
+    "hex": "17A6",
+    "char": "ឦ"
+  },
+  {
+    "hex": "17A7",
+    "char": "ឧ"
+  },
+  {
+    "hex": "17A8",
+    "char": "ឨ"
+  },
+  {
+    "hex": "17A9",
+    "char": "ឩ"
+  },
+  {
+    "hex": "17AA",
+    "char": "ឪ"
+  },
+  {
+    "hex": "17AB",
+    "char": "ឫ"
+  },
+  {
+    "hex": "17AC",
+    "char": "ឬ"
+  },
+  {
+    "hex": "17AD",
+    "char": "ឭ"
+  },
+  {
+    "hex": "17AE",
+    "char": "ឮ"
+  },
+  {
+    "hex": "17AF",
+    "char": "ឯ"
+  },
+  {
+    "hex": "17B0",
+    "char": "ឰ"
+  },
+  {
+    "hex": "17B1",
+    "char": "ឱ"
+  },
+  {
+    "hex": "17B2",
+    "char": "ឲ"
+  },
+  {
+    "hex": "17B3",
+    "char": "ឳ"
+  },
+  {
+    "hex": "17B4",
+    "char": "឴"
+  },
+  {
+    "hex": "17B5",
+    "char": "឵"
+  },
+  {
+    "hex": "17B6",
+    "char": "ា"
+  },
+  {
+    "hex": "17B7",
+    "char": "ិ"
+  },
+  {
+    "hex": "17B7_r",
+    "char": "ិ"
+  },
+  {
+    "hex": "17B717CD",
+    "char": "ិ៍"
+  },
+  {
+    "hex": "17B717CD_r",
+    "char": "ិ៍"
+  },
+  {
+    "hex": "17B8",
+    "char": "ី"
+  },
+  {
+    "hex": "17B8_r",
+    "char": "ី"
+  },
+  {
+    "hex": "17B9",
+    "char": "ឹ"
+  },
+  {
+    "hex": "17B9_r",
+    "char": "ឹ"
+  },
+  {
+    "hex": "17BA",
+    "char": "ឺ"
+  },
+  {
+    "hex": "17BA_r",
+    "char": "ឺ"
+  },
+  {
+    "hex": "17BB",
+    "char": "ុ"
+  },
+  {
+    "hex": "17BB_b",
+    "char": "ុ"
+  },
+  {
+    "hex": "17BC",
+    "char": "ូ"
+  },
+  {
+    "hex": "17BC_b",
+    "char": "ូ"
+  },
+  {
+    "hex": "17BD",
+    "char": "ួ"
+  },
+  {
+    "hex": "17BD_b",
+    "char": "ួ"
+  },
+  {
+    "hex": "17BF_right1",
+    "char": "ឿ"
+  },
+  {
+    "hex": "17BF_right2",
+    "char": "ឿ"
+  },
+  {
+    "hex": "17BF_right3",
+    "char": "ឿ"
+  },
+  {
+    "hex": "17C0_right1",
+    "char": "ៀ"
+  },
+  {
+    "hex": "17C0_right2",
+    "char": "ៀ"
+  },
+  {
+    "hex": "17C0_right3",
+    "char": "ៀ"
+  },
+  {
+    "hex": "17C0_right1_high",
+    "char": "ៀ"
+  },
+  {
+    "hex": "17C1",
+    "char": "េ"
+  },
+  {
+    "hex": "17C2",
+    "char": "ែ"
+  },
+  {
+    "hex": "17C3",
+    "char": "ៃ"
+  },
+  {
+    "hex": "17C5_right",
+    "char": "ៅ"
+  },
+  {
+    "hex": "17C6",
+    "char": "ំ"
+  },
+  {
+    "hex": "17C6_r",
+    "char": "ំ"
+  },
+  {
+    "hex": "17C7",
+    "char": "ះ"
+  },
+  {
+    "hex": "17C8",
+    "char": "ៈ"
+  },
+  {
+    "hex": "17C9",
+    "char": "៉"
+  },
+  {
+    "hex": "17C9_a",
+    "char": "៉"
+  },
+  {
+    "hex": "17C9_r",
+    "char": "៉"
+  },
+  {
+    "hex": "17CA",
+    "char": "៊"
+  },
+  {
+    "hex": "17CA_r",
+    "char": "៊"
+  },
+  {
+    "hex": "17CB",
+    "char": "់"
+  },
+  {
+    "hex": "17CB_r",
+    "char": "់"
+  },
+  {
+    "hex": "17CC",
+    "char": "៌"
+  },
+  {
+    "hex": "17CC_r",
+    "char": "៌"
+  },
+  {
+    "hex": "17CD",
+    "char": "៍"
+  },
+  {
+    "hex": "17CD_r",
+    "char": "៍"
+  },
+  {
+    "hex": "17CE",
+    "char": "៎"
+  },
+  {
+    "hex": "17CE_r",
+    "char": "៎"
+  },
+  {
+    "hex": "17CF",
+    "char": "៏"
+  },
+  {
+    "hex": "17CF_r",
+    "char": "៏"
+  },
+  {
+    "hex": "17D0",
+    "char": "័"
+  },
+  {
+    "hex": "17D1",
+    "char": "៑"
+  },
+  {
+    "hex": "17D1_r",
+    "char": "៑"
+  },
+  {
+    "hex": "17D2",
+    "char": "្"
+  },
+  {
+    "hex": "17D21780",
+    "char": "្ក"
+  },
+  {
+    "hex": "17D21781",
+    "char": "្ខ"
+  },
+  {
+    "hex": "17D21782",
+    "char": "្គ"
+  },
+  {
+    "hex": "17D21783",
+    "char": "្ឃ"
+  },
+  {
+    "hex": "17D21784",
+    "char": "្ង"
+  },
+  {
+    "hex": "17D21785",
+    "char": "្ច"
+  },
+  {
+    "hex": "17D21786",
+    "char": "្ឆ"
+  },
+  {
+    "hex": "17D21787",
+    "char": "្ជ"
+  },
+  {
+    "hex": "17D21788",
+    "char": "្ឈ"
+  },
+  {
+    "hex": "17D21789",
+    "char": "្ញ"
+  },
+  {
+    "hex": "17D2178A",
+    "char": "្ដ"
+  },
+  {
+    "hex": "17D2178B",
+    "char": "្ឋ"
+  },
+  {
+    "hex": "17D2178C",
+    "char": "្ឌ"
+  },
+  {
+    "hex": "17D2178D",
+    "char": "្ឍ"
+  },
+  {
+    "hex": "17D2178E",
+    "char": "្ណ"
+  },
+  {
+    "hex": "17D2178F",
+    "char": "្ត"
+  },
+  {
+    "hex": "17D21790",
+    "char": "្ថ"
+  },
+  {
+    "hex": "17D21791",
+    "char": "្ទ"
+  },
+  {
+    "hex": "17D21792",
+    "char": "្ធ"
+  },
+  {
+    "hex": "17D21793",
+    "char": "្ន"
+  },
+  {
+    "hex": "17D21794",
+    "char": "្ប"
+  },
+  {
+    "hex": "17D21795",
+    "char": "្ផ"
+  },
+  {
+    "hex": "17D21796",
+    "char": "្ព"
+  },
+  {
+    "hex": "17D21797",
+    "char": "្ភ"
+  },
+  {
+    "hex": "17D21798",
+    "char": "្ម"
+  },
+  {
+    "hex": "17D21799",
+    "char": "្យ"
+  },
+  {
+    "hex": "17D2179A",
+    "char": "្រ"
+  },
+  {
+    "hex": "17D2179B",
+    "char": "្ល"
+  },
+  {
+    "hex": "17D2179C",
+    "char": "្វ"
+  },
+  {
+    "hex": "17D2179D",
+    "char": "្ឝ"
+  },
+  {
+    "hex": "17D2179E",
+    "char": "្ឞ"
+  },
+  {
+    "hex": "17D2179F",
+    "char": "្ស"
+  },
+  {
+    "hex": "17D217A0",
+    "char": "្ហ"
+  },
+  {
+    "hex": "17D217A1",
+    "char": "្ឡ"
+  },
+  {
+    "hex": "17D217A2",
+    "char": "្អ"
+  },
+  {
+    "hex": "17D217A7",
+    "char": "្ឧ"
+  },
+  {
+    "hex": "17D217AB",
+    "char": "្ឫ"
+  },
+  {
+    "hex": "17D217AC",
+    "char": "្ឬ"
+  },
+  {
+    "hex": "17D217AF",
+    "char": "្ឯ"
+  },
+  {
+    "hex": "17D21789_a",
+    "char": "្ញ"
+  },
+  {
+    "hex": "17D2178A_r",
+    "char": "្ដ"
+  },
+  {
+    "hex": "17D2178F_r",
+    "char": "្ត"
+  },
+  {
+    "hex": "17D21797_r",
+    "char": "្ភ"
+  },
+  {
+    "hex": "17D21798_r",
+    "char": "្ម"
+  },
+  {
+    "hex": "17D2178317B6",
+    "char": "្ឃា"
+  },
+  {
+    "hex": "17D2178317C5",
+    "char": "្ឃៅ"
+  },
+  {
+    "hex": "17D21783_low",
+    "char": "្ឃ"
+  },
+  {
+    "hex": "17D2178817B6",
+    "char": "្ឈា"
+  },
+  {
+    "hex": "17D2178817C5",
+    "char": "្ឈៅ"
+  },
+  {
+    "hex": "17D21788_low",
+    "char": "្ឈ"
+  },
+  {
+    "hex": "17D2178D17B6",
+    "char": "្ឍា"
+  },
+  {
+    "hex": "17D2178D17C5",
+    "char": "្ឍៅ"
+  },
+  {
+    "hex": "17D2178D_low",
+    "char": "្ឍ"
+  },
+  {
+    "hex": "17D2178E_alt",
+    "char": "្ណ"
+  },
+  {
+    "hex": "17D2179417B6",
+    "char": "្បា"
+  },
+  {
+    "hex": "17D2179417C5",
+    "char": "្បៅ"
+  },
+  {
+    "hex": "17D21794_low",
+    "char": "្ប"
+  },
+  {
+    "hex": "17D2179917B6",
+    "char": "្យា"
+  },
+  {
+    "hex": "17D2179917C5",
+    "char": "្យៅ"
+  },
+  {
+    "hex": "17D21799_low",
+    "char": "្យ"
+  },
+  {
+    "hex": "17D2179A_low",
+    "char": "្រ"
+  },
+  {
+    "hex": "17D2179E17B6",
+    "char": "្ឞា"
+  },
+  {
+    "hex": "17D2179E17C5",
+    "char": "្ឞៅ"
+  },
+  {
+    "hex": "17D2179E_low",
+    "char": "្ឞ"
+  },
+  {
+    "hex": "17D2179F17B6",
+    "char": "្សា"
+  },
+  {
+    "hex": "17D2179F17C5",
+    "char": "្សៅ"
+  },
+  {
+    "hex": "17D2179F_low",
+    "char": "្ស"
+  },
+  {
+    "hex": "17D2178317B6_low",
+    "char": "្ឃា"
+  },
+  {
+    "hex": "17D2178317C5_low",
+    "char": "្ឃៅ"
+  },
+  {
+    "hex": "17D2178817B6_low",
+    "char": "្ឈា"
+  },
+  {
+    "hex": "17D2178817C5_low",
+    "char": "្ឈៅ"
+  },
+  {
+    "hex": "17D2178D17B6_low",
+    "char": "្ឍា"
+  },
+  {
+    "hex": "17D2178D17C5_low",
+    "char": "្ឍៅ"
+  },
+  {
+    "hex": "17D2179417B6_low",
+    "char": "្បា"
+  },
+  {
+    "hex": "17D2179417C5_low",
+    "char": "្បៅ"
+  },
+  {
+    "hex": "17D2179917B6_low",
+    "char": "្យា"
+  },
+  {
+    "hex": "17D2179917C5_low",
+    "char": "្យៅ"
+  },
+  {
+    "hex": "17D2179E17B6_low",
+    "char": "្ឞា"
+  },
+  {
+    "hex": "17D2179E17C5_low",
+    "char": "្ឞៅ"
+  },
+  {
+    "hex": "17D2179F17B6_low",
+    "char": "្សា"
+  },
+  {
+    "hex": "17D2179F17C5_low",
+    "char": "្សៅ"
+  },
+  {
+    "hex": "17D3",
+    "char": "៓"
+  },
+  {
+    "hex": "17D3_r",
+    "char": "៓"
+  },
+  {
+    "hex": "17D4",
+    "char": "។"
+  },
+  {
+    "hex": "17D5",
+    "char": "៕"
+  },
+  {
+    "hex": "17D6",
+    "char": "៖"
+  },
+  {
+    "hex": "17D7",
+    "char": "ៗ"
+  },
+  {
+    "hex": "17D8",
+    "char": "៘"
+  },
+  {
+    "hex": "17D9",
+    "char": "៙"
+  },
+  {
+    "hex": "17DA",
+    "char": "៚"
+  },
+  {
+    "hex": "17DB",
+    "char": "៛"
+  },
+  {
+    "hex": "17DC",
+    "char": "ៜ"
+  },
+  {
+    "hex": "17DD",
+    "char": "៝"
+  },
+  {
+    "hex": "17DD_r",
+    "char": "៝"
+  },
+  {
+    "hex": "17E0",
+    "char": "០"
+  },
+  {
+    "hex": "17E1",
+    "char": "១"
+  },
+  {
+    "hex": "17E2",
+    "char": "២"
+  },
+  {
+    "hex": "17E3",
+    "char": "៣"
+  },
+  {
+    "hex": "17E4",
+    "char": "៤"
+  },
+  {
+    "hex": "17E5",
+    "char": "៥"
+  },
+  {
+    "hex": "17E6",
+    "char": "៦"
+  },
+  {
+    "hex": "17E7",
+    "char": "៧"
+  },
+  {
+    "hex": "17E8",
+    "char": "៨"
+  },
+  {
+    "hex": "17E9",
+    "char": "៩"
+  },
+  {
+    "hex": "17F0",
+    "char": "៰"
+  },
+  {
+    "hex": "17F1",
+    "char": "៱"
+  },
+  {
+    "hex": "17F2",
+    "char": "៲"
+  },
+  {
+    "hex": "17F3",
+    "char": "៳"
+  },
+  {
+    "hex": "17F4",
+    "char": "៴"
+  },
+  {
+    "hex": "17F5",
+    "char": "៵"
+  },
+  {
+    "hex": "17F6",
+    "char": "៶"
+  },
+  {
+    "hex": "17F7",
+    "char": "៷"
+  },
+  {
+    "hex": "17F8",
+    "char": "៸"
+  },
+  {
+    "hex": "17F9",
+    "char": "៹"
+  },
+  {
+    "hex": "19E0",
+    "char": "᧠"
+  },
+  {
+    "hex": "19E1",
+    "char": "᧡"
+  },
+  {
+    "hex": "19E2",
+    "char": "᧢"
+  },
+  {
+    "hex": "19E3",
+    "char": "᧣"
+  },
+  {
+    "hex": "19E4",
+    "char": "᧤"
+  },
+  {
+    "hex": "19E5",
+    "char": "᧥"
+  },
+  {
+    "hex": "19E6",
+    "char": "᧦"
+  },
+  {
+    "hex": "19E7",
+    "char": "᧧"
+  },
+  {
+    "hex": "19E8",
+    "char": "᧨"
+  },
+  {
+    "hex": "19E9",
+    "char": "᧩"
+  },
+  {
+    "hex": "19EA",
+    "char": "᧪"
+  },
+  {
+    "hex": "19EB",
+    "char": "᧫"
+  },
+  {
+    "hex": "19EC",
+    "char": "᧬"
+  },
+  {
+    "hex": "19ED",
+    "char": "᧭"
+  },
+  {
+    "hex": "19EE",
+    "char": "᧮"
+  },
+  {
+    "hex": "19EF",
+    "char": "᧯"
+  },
+  {
+    "hex": "19F0",
+    "char": "᧰"
+  },
+  {
+    "hex": "19F1",
+    "char": "᧱"
+  },
+  {
+    "hex": "19F2",
+    "char": "᧲"
+  },
+  {
+    "hex": "19F3",
+    "char": "᧳"
+  },
+  {
+    "hex": "19F4",
+    "char": "᧴"
+  },
+  {
+    "hex": "19F5",
+    "char": "᧵"
+  },
+  {
+    "hex": "19F6",
+    "char": "᧶"
+  },
+  {
+    "hex": "19F7",
+    "char": "᧷"
+  },
+  {
+    "hex": "19F8",
+    "char": "᧸"
+  },
+  {
+    "hex": "19F9",
+    "char": "᧹"
+  },
+  {
+    "hex": "19FA",
+    "char": "᧺"
+  },
+  {
+    "hex": "19FB",
+    "char": "᧻"
+  },
+  {
+    "hex": "19FC",
+    "char": "᧼"
+  },
+  {
+    "hex": "19FD",
+    "char": "᧽"
+  },
+  {
+    "hex": "19FE",
+    "char": "᧾"
+  },
+  {
+    "hex": "19FF",
+    "char": "᧿"
+  },
+  {
+    "hex": "1E9E",
+    "char": "ẞ"
+  },
+  {
+    "hex": "200B",
+    "char": "​"
+  },
+  {
+    "hex": "200C",
+    "char": "‌"
+  },
+  {
+    "hex": "200D",
+    "char": "‍"
+  },
+  {
+    "hex": "2010",
+    "char": "‐"
+  },
+  {
+    "hex": "25CC",
+    "char": "◌"
+  },
+  {
+    "hex": "Ccedilla",
+    "char": "Ç"
+  },
+  {
+    "hex": "ccedilla",
+    "char": "ç"
+  },
+  {
+    "hex": "G",
+    "char": "G"
+  },
+  {
+    "hex": "H",
+    "char": "H"
+  },
+  {
+    "hex": "I",
+    "char": "I"
+  },
+  {
+    "hex": "J",
+    "char": "J"
+  },
+  {
+    "hex": "K",
+    "char": "K"
+  },
+  {
+    "hex": "L",
+    "char": "L"
+  },
+  {
+    "hex": "M",
+    "char": "M"
+  },
+  {
+    "hex": "N",
+    "char": "N"
+  },
+  {
+    "hex": "O",
+    "char": "O"
+  },
+  {
+    "hex": "P",
+    "char": "P"
+  },
+  {
+    "hex": "Q",
+    "char": "Q"
+  },
+  {
+    "hex": "R",
+    "char": "R"
+  },
+  {
+    "hex": "S",
+    "char": "S"
+  },
+  {
+    "hex": "T",
+    "char": "T"
+  },
+  {
+    "hex": "U",
+    "char": "U"
+  },
+  {
+    "hex": "V",
+    "char": "V"
+  },
+  {
+    "hex": "W",
+    "char": "W"
+  },
+  {
+    "hex": "X",
+    "char": "X"
+  },
+  {
+    "hex": "Y",
+    "char": "Y"
+  },
+  {
+    "hex": "Z",
+    "char": "Z"
+  },
+  {
+    "hex": "g",
+    "char": "g"
+  },
+  {
+    "hex": "h",
+    "char": "h"
+  },
+  {
+    "hex": "i",
+    "char": "i"
+  },
+  {
+    "hex": "j",
+    "char": "j"
+  },
+  {
+    "hex": "k",
+    "char": "k"
+  },
+  {
+    "hex": "l",
+    "char": "l"
+  },
+  {
+    "hex": "m",
+    "char": "m"
+  },
+  {
+    "hex": "n",
+    "char": "n"
+  },
+  {
+    "hex": "o",
+    "char": "o"
+  },
+  {
+    "hex": "p",
+    "char": "p"
+  },
+  {
+    "hex": "q",
+    "char": "q"
+  },
+  {
+    "hex": "r",
+    "char": "r"
+  },
+  {
+    "hex": "s",
+    "char": "s"
+  },
+  {
+    "hex": "t",
+    "char": "t"
+  },
+  {
+    "hex": "u",
+    "char": "u"
+  },
+  {
+    "hex": "v",
+    "char": "v"
+  },
+  {
+    "hex": "w",
+    "char": "w"
+  },
+  {
+    "hex": "x",
+    "char": "x"
+  },
+  {
+    "hex": "y",
+    "char": "y"
+  },
+  {
+    "hex": "z",
+    "char": "z"
+  },
+  {
+    "hex": "CR",
+    "char": ""
+  },
+  {
+    "hex": "OE",
+    "char": "Œ"
+  },
+  {
+    "hex": "at",
+    "char": "@"
+  },
+  {
+    "hex": "oe",
+    "char": "œ"
+  },
+  {
+    "hex": "Eng",
+    "char": "Ŋ"
+  },
+  {
+    "hex": "Eth",
+    "char": "Ð"
+  },
+  {
+    "hex": "bar",
+    "char": "|"
+  },
+  {
+    "hex": "eng",
+    "char": "ŋ"
+  },
+  {
+    "hex": "eth",
+    "char": "ð"
+  },
+  {
+    "hex": "one",
+    "char": "1"
+  },
+  {
+    "hex": "six",
+    "char": "6"
+  },
+  {
+    "hex": "two",
+    "char": "2"
+  },
+  {
+    "hex": "yen",
+    "char": "¥"
+  },
+  {
+    "hex": "Euro",
+    "char": "€"
+  },
+  {
+    "hex": "Hbar",
+    "char": "Ħ"
+  },
+  {
+    "hex": "NULL",
+    "char": ""
+  },
+  {
+    "hex": "cent",
+    "char": "¢"
+  },
+  {
+    "hex": "five",
+    "char": "5"
+  },
+  {
+    "hex": "four",
+    "char": "4"
+  },
+  {
+    "hex": "hbar",
+    "char": "ħ"
+  },
+  {
+    "hex": "less",
+    "char": "<"
+  },
+  {
+    "hex": "nbsp",
+    "char": " "
+  },
+  {
+    "hex": "nine",
+    "char": "9"
+  },
+  {
+    "hex": "null",
+    "char": ""
+  },
+  {
+    "hex": "plus",
+    "char": "+"
+  },
+  {
+    "hex": "ring",
+    "char": "˚"
+  },
+  {
+    "hex": "zero",
+    "char": "0"
+  },
+  {
+    "hex": "Aring",
+    "char": "Å"
+  },
+  {
+    "hex": "Thorn",
+    "char": "Þ"
+  },
+  {
+    "hex": "Uring",
+    "char": "Ů"
+  },
+  {
+    "hex": "acute",
+    "char": "´"
+  },
+  {
+    "hex": "aring",
+    "char": "å"
+  },
+  {
+    "hex": "breve",
+    "char": "˘"
+  },
+  {
+    "hex": "caron",
+    "char": "ˇ"
+  },
+  {
+    "hex": "colon",
+    "char": ":"
+  },
+  {
+    "hex": "comma",
+    "char": ","
+  },
+  {
+    "hex": "eight",
+    "char": "8"
+  },
+  {
+    "hex": "equal",
+    "char": "="
+  },
+  {
+    "hex": "grave",
+    "char": "`"
+  },
+  {
+    "hex": "minus",
+    "char": "-"
+  },
+  {
+    "hex": "seven",
+    "char": "7"
+  },
+  {
+    "hex": "slash",
+    "char": "/"
+  },
+  {
+    "hex": "space",
+    "char": " "
+  },
+  {
+    "hex": "thorn",
+    "char": "þ"
+  },
+  {
+    "hex": "three",
+    "char": "3"
+  },
+  {
+    "hex": "tilde",
+    "char": "~"
+  },
+  {
+    "hex": "uring",
+    "char": "ů"
+  },
+  {
+    "hex": "Aacute",
+    "char": "Á"
+  },
+  {
+    "hex": "Abreve",
+    "char": "Ă"
+  },
+  {
+    "hex": "Agrave",
+    "char": "À"
+  },
+  {
+    "hex": "Atilde",
+    "char": "Ã"
+  },
+  {
+    "hex": "Cacute",
+    "char": "Ć"
+  },
+  {
+    "hex": "Ccaron",
+    "char": "Č"
+  },
+  {
+    "hex": "Dcaron",
+    "char": "Ď"
+  },
+  {
+    "hex": "Dcroat",
+    "char": "Đ"
+  },
+  {
+    "hex": "Eacute",
+    "char": "É"
+  },
+  {
+    "hex": "Ecaron",
+    "char": "Ě"
+  },
+  {
+    "hex": "Egrave",
+    "char": "È"
+  },
+  {
+    "hex": "Gbreve",
+    "char": "Ğ"
+  },
+  {
+    "hex": "Iacute",
+    "char": "Í"
+  },
+  {
+    "hex": "Igrave",
+    "char": "Ì"
+  },
+  {
+    "hex": "Lacute",
+    "char": "Ĺ"
+  },
+  {
+    "hex": "Lcaron",
+    "char": "Ľ"
+  },
+  {
+    "hex": "Lslash",
+    "char": "Ł"
+  },
+  {
+    "hex": "Nacute",
+    "char": "Ń"
+  },
+  {
+    "hex": "Ncaron",
+    "char": "Ň"
+  },
+  {
+    "hex": "Ntilde",
+    "char": "Ñ"
+  },
+  {
+    "hex": "Oacute",
+    "char": "Ó"
+  },
+  {
+    "hex": "Ograve",
+    "char": "Ò"
+  },
+  {
+    "hex": "Oslash",
+    "char": "Ø"
+  },
+  {
+    "hex": "Otilde",
+    "char": "Õ"
+  },
+  {
+    "hex": "Racute",
+    "char": "Ŕ"
+  },
+  {
+    "hex": "Rcaron",
+    "char": "Ř"
+  },
+  {
+    "hex": "Sacute",
+    "char": "Ś"
+  },
+  {
+    "hex": "Scaron",
+    "char": "Š"
+  },
+  {
+    "hex": "Tcaron",
+    "char": "Ť"
+  },
+  {
+    "hex": "Uacute",
+    "char": "Ú"
+  },
+  {
+    "hex": "Ubreve",
+    "char": "Ŭ"
+  },
+  {
+    "hex": "Ugrave",
+    "char": "Ù"
+  },
+  {
+    "hex": "Wacute",
+    "char": "Ẃ"
+  },
+  {
+    "hex": "Wgrave",
+    "char": "Ẁ"
+  },
+  {
+    "hex": "Yacute",
+    "char": "Ý"
+  },
+  {
+    "hex": "Ygrave",
+    "char": "Ỳ"
+  },
+  {
+    "hex": "Zacute",
+    "char": "Ź"
+  },
+  {
+    "hex": "Zcaron",
+    "char": "Ž"
+  },
+  {
+    "hex": "aacute",
+    "char": "á"
+  },
+  {
+    "hex": "abreve",
+    "char": "ă"
+  },
+  {
+    "hex": "agrave",
+    "char": "à"
+  },
+  {
+    "hex": "atilde",
+    "char": "ã"
+  },
+  {
+    "hex": "bullet",
+    "char": "•"
+  },
+  {
+    "hex": "cacute",
+    "char": "ć"
+  },
+  {
+    "hex": "ccaron",
+    "char": "č"
+  },
+  {
+    "hex": "dcaron",
+    "char": "ď"
+  },
+  {
+    "hex": "dcroat",
+    "char": "đ"
+  },
+  {
+    "hex": "degree",
+    "char": "°"
+  },
+  {
+    "hex": "divide",
+    "char": "÷"
+  },
+  {
+    "hex": "dollar",
+    "char": "$"
+  },
+  {
+    "hex": "eacute",
+    "char": "é"
+  },
+  {
+    "hex": "ecaron",
+    "char": "ě"
+  },
+  {
+    "hex": "egrave",
+    "char": "è"
+  },
+  {
+    "hex": "emdash",
+    "char": "—"
+  },
+  {
+    "hex": "endash",
+    "char": "–"
+  },
+  {
+    "hex": "exclam",
+    "char": "!"
+  },
+  {
+    "hex": "gbreve",
+    "char": "ğ"
+  },
+  {
+    "hex": "hyphen",
+    "char": "-"
+  },
+  {
+    "hex": "iacute",
+    "char": "í"
+  },
+  {
+    "hex": "igrave",
+    "char": "ì"
+  },
+  {
+    "hex": "lacute",
+    "char": "ĺ"
+  },
+  {
+    "hex": "lcaron",
+    "char": "ľ"
+  },
+  {
+    "hex": "lslash",
+    "char": "ł"
+  },
+  {
+    "hex": "nacute",
+    "char": "ń"
+  },
+  {
+    "hex": "ncaron",
+    "char": "ň"
+  },
+  {
+    "hex": "notdef",
+    "char": ""
+  },
+  {
+    "hex": "ntilde",
+    "char": "ñ"
+  },
+  {
+    "hex": "oacute",
+    "char": "ó"
+  },
+  {
+    "hex": "ogonek",
+    "char": "?"
+  },
+  {
+    "hex": "ograve",
+    "char": "ò"
+  },
+  {
+    "hex": "oslash",
+    "char": "ø"
+  },
+  {
+    "hex": "otilde",
+    "char": "õ"
+  },
+  {
+    "hex": "period",
+    "char": "."
+  },
+  {
+    "hex": "racute",
+    "char": "ŕ"
+  },
+  {
+    "hex": "rcaron",
+    "char": "ř"
+  },
+  {
+    "hex": "sacute",
+    "char": "ś"
+  },
+  {
+    "hex": "scaron",
+    "char": "š"
+  },
+  {
+    "hex": "tcaron",
+    "char": "ť"
+  },
+  {
+    "hex": "uacute",
+    "char": "ú"
+  },
+  {
+    "hex": "ubreve",
+    "char": "ŭ"
+  },
+  {
+    "hex": "ugrave",
+    "char": "ù"
+  },
+  {
+    "hex": "wacute",
+    "char": "ẃ"
+  },
+  {
+    "hex": "wgrave",
+    "char": "ẁ"
+  },
+  {
+    "hex": "yacute",
+    "char": "ý"
+  },
+  {
+    "hex": "ygrave",
+    "char": "ỳ"
+  },
+  {
+    "hex": "zacute",
+    "char": "ź"
+  },
+  {
+    "hex": "zcaron",
+    "char": "ž"
+  },
+  {
+    "hex": "Amacron",
+    "char": "Ā"
+  },
+  {
+    "hex": "Aogonek",
+    "char": "Ą"
+  },
+  {
+    "hex": "Emacron",
+    "char": "Ē"
+  },
+  {
+    "hex": "Eogonek",
+    "char": "Ę"
+  },
+  {
+    "hex": "Imacron",
+    "char": "Ī"
+  },
+  {
+    "hex": "Iogonek",
+    "char": "Į"
+  },
+  {
+    "hex": "Omacron",
+    "char": "Ō"
+  },
+  {
+    "hex": "Umacron",
+    "char": "Ū"
+  },
+  {
+    "hex": "Uogonek",
+    "char": "Ų"
+  },
+  {
+    "hex": "amacron",
+    "char": "ā"
+  },
+  {
+    "hex": "aogonek",
+    "char": "ą"
+  },
+  {
+    "hex": "cedilla",
+    "char": "¸"
+  },
+  {
+    "hex": "emacron",
+    "char": "ē"
+  },
+  {
+    "hex": "eogonek",
+    "char": "ę"
+  },
+  {
+    "hex": "greater",
+    "char": ">"
+  },
+  {
+    "hex": "imacron",
+    "char": "ī"
+  },
+  {
+    "hex": "iogonek",
+    "char": "į"
+  },
+  {
+    "hex": "omacron",
+    "char": "ō"
+  },
+  {
+    "hex": "percent",
+    "char": "%"
+  },
+  {
+    "hex": "section",
+    "char": "§"
+  },
+  {
+    "hex": "umacron",
+    "char": "ū"
+  },
+  {
+    "hex": "uogonek",
+    "char": "ų"
+  },
+  {
+    "hex": "Scedilla",
+    "char": "Ş"
+  },
+  {
+    "hex": "asterisk",
+    "char": "*"
+  },
+  {
+    "hex": "dieresis",
+    "char": "¨"
+  },
+  {
+    "hex": "dotlessi",
+    "char": "ı"
+  },
+  {
+    "hex": "ellipsis",
+    "char": "…"
+  },
+  {
+    "hex": "multiply",
+    "char": "×"
+  },
+  {
+    "hex": "question",
+    "char": "?"
+  },
+  {
+    "hex": "quotedbl",
+    "char": "\""
+  },
+  {
+    "hex": "scedilla",
+    "char": "ş"
+  },
+  {
+    "hex": "sterling",
+    "char": "£"
+  },
+  {
+    "hex": "Adieresis",
+    "char": "Ä"
+  },
+  {
+    "hex": "Edieresis",
+    "char": "Ë"
+  },
+  {
+    "hex": "Idieresis",
+    "char": "Ï"
+  },
+  {
+    "hex": "Odieresis",
+    "char": "Ö"
+  },
+  {
+    "hex": "Udieresis",
+    "char": "Ü"
+  },
+  {
+    "hex": "Wdieresis",
+    "char": "Ẅ"
+  },
+  {
+    "hex": "Ydieresis",
+    "char": "Ÿ"
+  },
+  {
+    "hex": "acutecomb",
+    "char": "́"
+  },
+  {
+    "hex": "adieresis",
+    "char": "ä"
+  },
+  {
+    "hex": "ampersand",
+    "char": "&"
+  },
+  {
+    "hex": "backslash",
+    "char": "\\"
+  },
+  {
+    "hex": "braceleft",
+    "char": "{"
+  },
+  {
+    "hex": "copyright",
+    "char": "©"
+  },
+  {
+    "hex": "dotaccent",
+    "char": "˙"
+  },
+  {
+    "hex": "edieresis",
+    "char": "ë"
+  },
+  {
+    "hex": "gravecomb",
+    "char": "̀"
+  },
+  {
+    "hex": "idieresis",
+    "char": "ï"
+  },
+  {
+    "hex": "macronmod",
+    "char": "¯"
+  },
+  {
+    "hex": "odieresis",
+    "char": "ö"
+  },
+  {
+    "hex": "overscore",
+    "char": "‾"
+  },
+  {
+    "hex": "paragraph",
+    "char": "¶"
+  },
+  {
+    "hex": "parenleft",
+    "char": "("
+  },
+  {
+    "hex": "quoteleft",
+    "char": "‘"
+  },
+  {
+    "hex": "semicolon",
+    "char": ";"
+  },
+  {
+    "hex": "tildecomb",
+    "char": "̃"
+  },
+  {
+    "hex": "trademark",
+    "char": "™"
+  },
+  {
+    "hex": "udieresis",
+    "char": "ü"
+  },
+  {
+    "hex": "wdieresis",
+    "char": "ẅ"
+  },
+  {
+    "hex": "ydieresis",
+    "char": "ÿ"
+  },
+  {
+    "hex": "Cdotaccent",
+    "char": "Ċ"
+  },
+  {
+    "hex": "Edotaccent",
+    "char": "Ė"
+  },
+  {
+    "hex": "Gdotaccent",
+    "char": "Ġ"
+  },
+  {
+    "hex": "Idotaccent",
+    "char": "İ"
+  },
+  {
+    "hex": "Zdotaccent",
+    "char": "Ż"
+  },
+  {
+    "hex": "asciitilde",
+    "char": "~"
+  },
+  {
+    "hex": "braceright",
+    "char": "}"
+  },
+  {
+    "hex": "cdotaccent",
+    "char": "ċ"
+  },
+  {
+    "hex": "circumflex",
+    "char": "^"
+  },
+  {
+    "hex": "edotaccent",
+    "char": "ė"
+  },
+  {
+    "hex": "exclamdown",
+    "char": "¡"
+  },
+  {
+    "hex": "gdotaccent",
+    "char": "ġ"
+  },
+  {
+    "hex": "germandbls",
+    "char": "ß"
+  },
+  {
+    "hex": "numbersign",
+    "char": "#"
+  },
+  {
+    "hex": "parenright",
+    "char": ")"
+  },
+  {
+    "hex": "quoteright",
+    "char": "’"
+  },
+  {
+    "hex": "registered",
+    "char": "®"
+  },
+  {
+    "hex": "underscore",
+    "char": "_"
+  },
+  {
+    "hex": "zdotaccent",
+    "char": "ż"
+  },
+  {
+    "hex": "Acircumflex",
+    "char": "Â"
+  },
+  {
+    "hex": "Ecircumflex",
+    "char": "Ê"
+  },
+  {
+    "hex": "Icircumflex",
+    "char": "Î"
+  },
+  {
+    "hex": "Ocircumflex",
+    "char": "Ô"
+  },
+  {
+    "hex": "Ucircumflex",
+    "char": "Û"
+  },
+  {
+    "hex": "Wcircumflex",
+    "char": "Ŵ"
+  },
+  {
+    "hex": "Ycircumflex",
+    "char": "Ŷ"
+  },
+  {
+    "hex": "acircumflex",
+    "char": "â"
+  },
+  {
+    "hex": "asciicircum",
+    "char": "^"
+  },
+  {
+    "hex": "bracketleft",
+    "char": "["
+  },
+  {
+    "hex": "ecircumflex",
+    "char": "ê"
+  },
+  {
+    "hex": "icircumflex",
+    "char": "î"
+  },
+  {
+    "hex": "ocircumflex",
+    "char": "ô"
+  },
+  {
+    "hex": "ordfeminine",
+    "char": "ª"
+  },
+  {
+    "hex": "quotesingle",
+    "char": "'"
+  },
+  {
+    "hex": "ucircumflex",
+    "char": "û"
+  },
+  {
+    "hex": "wcircumflex",
+    "char": "ŵ"
+  },
+  {
+    "hex": "ycircumflex",
+    "char": "ŷ"
+  },
+  {
+    "hex": "bracketright",
+    "char": "]"
+  },
+  {
+    "hex": "hungarumlaut",
+    "char": "˝"
+  },
+  {
+    "hex": "ordmasculine",
+    "char": "º"
+  },
+  {
+    "hex": "questiondown",
+    "char": "¿"
+  },
+  {
+    "hex": "quotedblbase",
+    "char": "„"
+  },
+  {
+    "hex": "quotedblleft",
+    "char": "“"
+  },
+  {
+    "hex": "Ohungarumlaut",
+    "char": "Ő"
+  },
+  {
+    "hex": "Uhungarumlaut",
+    "char": "Ű"
+  },
+  {
+    "hex": "guillemotleft",
+    "char": "«"
+  },
+  {
+    "hex": "guilsinglleft",
+    "char": "‹"
+  },
+  {
+    "hex": "ohungarumlaut",
+    "char": "ő"
+  },
+  {
+    "hex": "quotedblright",
+    "char": "”"
+  },
+  {
+    "hex": "uhungarumlaut",
+    "char": "ű"
+  },
+  {
+    "hex": "guillemotright",
+    "char": "»"
+  },
+  {
+    "hex": "guilsinglright",
+    "char": "›"
+  },
+  {
+    "hex": "periodcentered",
+    "char": "·"
+  },
+  {
+    "hex": "quotesinglbase",
+    "char": "‚"
+  },
+  {
+    "hex": "caroncommaaccent",
+    "char": ","
+  },
+  {
+    "hex": "commaaccentrotate",
+    "char": "’"
+  }
+]

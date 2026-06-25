@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg-base: #f7f5f0;           /* White Sand / Chalk */
+    --text-primary: #44403c;      /* Charcoal / Ash (Stone 700) */
+    --text-muted: #a8a29e;        /* Silt (Stone 400) */
+    --border-color: #e7e5e4;      /* Tactile Boundary (Stone 200) */
+    --container-bg: rgba(255, 255, 255, 0.45);
+    
+    --mouse-x: -999px;
+    --mouse-y: -999px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 0px !important; /* Strict 0px radius rule */
+}
+
+body {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* --- EMBOSSED REVEAL EFFECT --- */
+.reveal-bg-overlay {
+    position: fixed;
+    inset: 0;
+    background: url('./assets/sand_texture.png') no-repeat center center;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.85;
+    /* Radial gradient tracking the mouse */
+    mask-image: radial-gradient(circle 220px at var(--mouse-x) var(--mouse-y), black 10%, transparent 100%);
+    -webkit-mask-image: radial-gradient(circle 220px at var(--mouse-x) var(--mouse-y), black 10%, transparent 100%);
+    transition: opacity 0.5s ease-out;
+}
+
+/* --- APP LAYOUT --- */
+.app-container {
+    position: relative;
+    z-index: 10; /* Above the reveal overlay */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 24px;
+    gap: 24px;
+}
+
+/* Minimal Architectural Header */
+header {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header h1 {
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+}
+
+header .sub-title {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+}
+
+/* Workspace Grid - Clean 2-column architectural design */
+.workspace-grid {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 24px;
+    flex-grow: 1;
+}
+
+/* Frosted Glass Workspace Containers */
+.panel {
+    background: var(--container-bg);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    transition: border-color 0.5s ease-out;
+}
+
+.panel:hover {
+    border-color: var(--text-muted);
+}
+
+.panel-header {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panel-title {
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+}
+
+/* Sliders & Inputs UI */
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.control-label {
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-value {
+    color: var(--text-primary);
+    font-weight: 300;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 2px;
+    background: var(--border-color);
+    outline: none;
+    margin: 8px 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    background: var(--text-primary);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+    background: var(--text-muted);
+}
+
+/* Code Output Box */
+.code-box {
+    font-family: monospace;
+    font-size: 11px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid var(--border-color);
+    padding: 12px;
+    overflow-x: auto;
+    white-space: pre;
+    color: var(--text-primary);
+    max-height: 200px;
+    flex-grow: 1;
+}
+
+/* Buttons (Tactile Architecture Design) */
+.btn-action {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: var(--text-primary);
+    color: var(--bg-base);
+    border: 1px solid var(--text-primary);
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease-out;
+}
+
+.btn-action:hover {
+    background: transparent;
+    color: var(--text-primary);
+}
+
+.btn-action:disabled {
+    background: var(--text-muted);
+    border-color: var(--text-muted);
+    color: var(--bg-base);
+    cursor: not-allowed;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    margin-top: 10px;
+}
+
+.btn-secondary:hover {
+    border-color: var(--text-primary);
+}
+
+/* --- TOGGLE BUTTONS --- */
+.toggle-container {
+    display: flex;
+    border: 1px solid var(--border-color);
+    background: rgba(255, 255, 255, 0.45);
+    margin-top: 5px;
+}
+
+.toggle-btn {
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 11px;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: all 0.3s ease;
+}
+
+.toggle-btn.active {
+    background: var(--text-primary);
+    color: var(--bg-base);
+}
+
+.toggle-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.4;
+}
+
+/* --- GLYPH GRID & SELECTOR --- */
+.glyph-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(42px, 1fr));
+    gap: 8px;
+    overflow-y: auto;
+    max-height: 180px;
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.glyph-tile {
+    aspect-ratio: 1;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 300;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease-out;
+}
+
+.glyph-tile:hover, .glyph-tile.active {
+    border-color: var(--text-primary);
+    background: var(--text-primary);
+    color: var(--bg-base);
+}
+
+/* --- INSPECTOR PANEL (CENTER WORKSPACE) --- */
+.inspector-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 100%;
+}
+
+.view-modes {
+    display: flex;
+    gap: 1px;
+    background: var(--border-color);
+}
+
+.view-mode-btn {
+    flex: 1;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    border: none;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    color: var(--text-muted);
+}
+
+.view-mode-btn.active {
+    background: var(--container-bg);
+    font-weight: 400;
+    color: var(--text-primary);
+    border-bottom: 3px solid #E95420; /* Ubuntu orange accent selection highlight */
+}
+
+.canvas-viewport {
+    flex-grow: 1;
+    border: 1px solid var(--border-color);
+    position: relative;
+    background: rgba(255, 255, 255, 0.25);
+    min-height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#vector-canvas {
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+}
+
+#vector-canvas:active {
+    cursor: grabbing;
+}
+
+.viewport-info {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    background: rgba(255,255,255,0.7);
+    padding: 4px 8px;
+    border: 1px solid var(--border-color);
+    text-transform: uppercase;
+    z-index: 10;
+}
+
+/* --- STYLE SLOTS --- */
+.slots-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.slot-card {
+    aspect-ratio: 1;
+    border: 1px dashed var(--text-muted);
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    padding-bottom: 24px; /* Room for select menu */
+}
+
+.slot-card:hover {
+    border-color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.45);
+}
+
+.slot-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    inset: 0;
+}
+
+.slot-number {
+    font-size: 10px;
+    font-weight: 300;
+    color: var(--text-muted);
+    margin-top: -10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.slot-select {
+    width: calc(100% - 12px);
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+    border: 1px solid var(--border-color);
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--text-primary);
+    font-size: 9px;
+    font-weight: 300;
+    padding: 3px;
+    outline: none;
+    cursor: pointer;
+    z-index: 10;
+    transition: border-color 0.3s ease;
+}
+
+.slot-select:hover {
+    border-color: var(--text-primary);
+}
+
+/* Pipeline Status Stepper */
+.stepper-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+    padding: 12px;
+    background: rgba(255,255,255,0.3);
+    border: 1px solid var(--border-color);
+}
+
+.step-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.step-dot {
+    width: 8px;
+    height: 8px;
+    background: var(--text-muted);
+    transition: background 0.3s ease;
+}
+
+.step-dot.active {
+    background: #10b981; /* Green active status dot */
+    box-shadow: 0 0 8px #10b981;
+}
+
+.step-dot.completed {
+    background: var(--text-primary);
+}
+
+/* Font Gallery styling */
+.gallery-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    overflow-y: auto;
+    max-height: 480px;
+    padding-right: 4px;
+}
+
+.gallery-item {
+    border: 1px solid var(--border-color);
+    background: rgba(255, 255, 255, 0.45);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.gallery-item:hover {
+    border-color: var(--text-muted);
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.gallery-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.gallery-preview {
+    font-size: 24px;
+    line-height: 1.3;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 38px;
+    font-weight: 300;
+}
+
+.gallery-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.gallery-btn {
+    flex: 1;
+    padding: 6px;
+    font-size: 9px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: 1px solid var(--border-color);
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: var(--text-primary);
+}
+
+.gallery-btn:hover {
+    border-color: var(--text-primary);
+    background: var(--text-primary);
+    color: var(--bg-base);
+}
+
+.gallery-btn-danger {
+    color: #ef4444;
+}
+
+.gallery-btn-danger:hover {
+    border-color: #ef4444;
+    background: #ef4444;
+    color: #fff;
+}
+
+/* --- TECHNICAL INSPECTOR MODAL --- */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(68, 64, 60, 0.45);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-out;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-container {
+    width: 100%;
+    max-width: 600px;
+    height: 70vh;
+    max-height: 650px;
+    min-height: 500px;
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px;
+    position: relative;
+    transition: transform 0.3s ease-out;
+    transform: scale(0.95);
+}
+
+.modal-container .canvas-viewport {
+    background: #ffffff;
+}
+
+.modal-overlay.active .modal-container {
+    transform: scale(1);
+}
+
+.modal-close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 18px;
+    font-weight: 100;
+    color: var(--text-muted);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    z-index: 20;
+}
+
+.modal-close:hover {
+    color: var(--text-primary);
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--text-muted);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-primary);
+}
+
+/* --- SLOT SELECT BUTTON (GRID TRIGGER) --- */
+.slot-select-btn {
+    width: calc(100% - 12px);
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+    border: 1px solid var(--border-color);
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--text-primary);
+    font-family: inherit;
+    font-size: 9px;
+    font-weight: 300;
+    padding: 4px 6px;
+    outline: none;
+    cursor: pointer;
+    z-index: 10;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.slot-select-btn:hover {
+    border-color: var(--text-primary);
+    background: var(--bg-base);
+}
+
+/* --- FLOATING CHARACTER PICKER POPUP --- */
+.char-picker-popup {
+    position: absolute;
+    z-index: 200;
+    width: 450px;
+    height: 380px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--text-primary);
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    gap: 8px;
+    box-shadow: 0 4px 20px rgba(68, 64, 60, 0.15);
+}
+
+.char-picker-search-container {
+    width: 100%;
+}
+
+#char-picker-search {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--text-primary);
+    font-size: 11px;
+    padding: 6px 8px;
+    font-weight: 300;
+    outline: none;
+}
+
+#char-picker-search:focus {
+    border-color: var(--text-primary);
+}
+
+.char-picker-grid {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 6px;
+    overflow-y: auto;
+    padding-right: 2px;
+}
+
+.char-picker-tile {
+    aspect-ratio: 1;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 300;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.6);
+    transition: all 0.2s ease;
+}
+
+.char-picker-tile:hover {
+    border-color: var(--text-primary);
+    background: var(--text-primary);
+    color: var(--bg-base);
+}
+
+.char-picker-tile.selected {
+    border-color: var(--text-primary);
+    background: rgba(68, 64, 60, 0.15);
+    font-weight: 400;
+}
+
+.char-picker-tabs {
+    display: flex;
+    gap: 1px;
+    background: var(--border-color);
+}
+
+.char-picker-tab {
+    flex: 1;
+    padding: 6px 2px;
+    background: rgba(255, 255, 255, 0.85);
+    border: none;
+    font-family: inherit;
+    font-size: 8px;
+    font-weight: 300;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    color: var(--text-muted);
+    transition: all 0.2s ease;
+}
+
+.char-picker-tab:hover {
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.char-picker-tab.active {
+    background: var(--text-primary);
+    color: var(--bg-base);
+    font-weight: 400;
+}
+
+
