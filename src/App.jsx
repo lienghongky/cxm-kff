@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import wheelUrl from './assets/fonttools-4.63.0-py3-none-any.whl';
 import donorFontUrl from './assets/NotoSansKhmer.ttf';
 import generatedFontUrl from './assets/KhmerCustomFont-Regular.ttf';
+import defaultSlot1Url from './assets/default_slot1.png';
 import pythonCompilerCode from './python/font_compiler.py?raw';
 import KHMER_GLYPHS from './assets/glyphs.json';
 import { saveFont, getAllFonts, deleteFont } from './utils/storage.js';
@@ -126,7 +127,7 @@ export default function App() {
     // STATE
     // ----------------------------------------------------
     const [styleRefs, setStyleRefs] = useState([
-        { id: 1, charHex: '1780', file: null, dataUrl: null },
+        { id: 1, charHex: '1780', file: null, dataUrl: defaultSlot1Url },
         { id: 2, charHex: '1781', file: null, dataUrl: null },
         { id: 3, charHex: '1782', file: null, dataUrl: null },
         { id: 4, charHex: '1783', file: null, dataUrl: null },
@@ -138,8 +139,8 @@ export default function App() {
     const [styleName, setStyleName] = useState('Regular');
     const [vectorEngine, setVectorEngine] = useState('vtracer'); // 'stage2' or 'vtracer'
     const [generationMode, setGenerationMode] = useState('Template'); // 'Template' or 'Autoregressive'
-    const [templateInfluenceWeight, setTemplateInfluenceWeight] = useState(0.2);
-    const [imageInfluenceWeight, setImageInfluenceWeight] = useState(1.8);
+    const [templateInfluenceWeight, setTemplateInfluenceWeight] = useState(0.48);
+    const [imageInfluenceWeight, setImageInfluenceWeight] = useState(1.52);
     const [glyphSetMode, setGlyphSetMode] = useState('Essential'); // 'Essential' or 'Full'
     const targetGlyphsLengthRef = useRef(KHMER_GLYPHS.length);
 
