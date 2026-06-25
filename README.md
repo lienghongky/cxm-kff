@@ -2,6 +2,15 @@
 
 A 100% serverless, zero-backend, client-side font generation and compilation sandbox for Khmer fonts. The application operates entirely in the browser using WebAssembly (Wasm) and Web Workers.
 
+
+## Screenshot
+
+![alt text](doc/images/kff-screen.png)
+
+## Live demo
+
+Link: https://cxm-kff.vercel.app/
+
 ## Key Features
 
 - **In-Browser Font Compilation**: Compiles/generates fonts directly inside the browser using Pyodide (Python in WebAssembly).
